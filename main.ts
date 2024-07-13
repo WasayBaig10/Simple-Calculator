@@ -1,4 +1,4 @@
-import inquirer from "inquirer";
+jimport inquirer from "inquirer";
  
 let answers = await inquirer.prompt([ 
     {message : "enter first number" , type : "number",name : "firstNumber"} ,
